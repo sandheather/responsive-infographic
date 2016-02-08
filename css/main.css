@@ -32,3 +32,8 @@ body {
 	width:170%;
 }
 
+.dog-cat{
+	width:100%;
+	overflow-x: auto;
+}
+
