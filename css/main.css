@@ -37,3 +37,6 @@ body {
 	overflow-x: auto;
 }
 
+.dog-cat .grid{
+	width:700px;
+}
