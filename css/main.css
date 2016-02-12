@@ -25,7 +25,10 @@ body {
 }
 
 .middle{
-	width: 170%;
+	width: 190%;
+	margin-left:13rem;
+	margin-top: 4rem;
+	z-index: 100;
 }
 
 .cat{
