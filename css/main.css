@@ -32,7 +32,9 @@ body {
 }
 
 .cat{
-	width:170%;
+	width:250%;
+	margin-left: 18rem;
+	z-index: -2;
 }
 
 .dog-cat{
