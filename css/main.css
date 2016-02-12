@@ -29,12 +29,14 @@ body {
 	margin-left:13rem;
 	margin-top: 4rem;
 	z-index: 100;
+	position: relative;
 }
 
 .cat{
 	width:250%;
 	margin-left: 18rem;
 	z-index: -2;
+	position: relative;
 }
 
 .dog-cat{
@@ -45,4 +47,43 @@ body {
 .dog-cat .grid{
 	width:750px;
 }
+
+@media only screen and (min-width: 38em) {
+
+.bone{
+	width: 80%;
+	margin-left: 5rem;
 }
+
+.intro{
+	width: 80%;
+	margin-left: 5rem;
+}
+
+.chart{
+width: 80%;
+	margin-left: 5rem;
+}
+
+.bottom{
+	width: 60%;
+	margin-left: 7rem;
+}
+}
+
+@media only screen and (min-width: 60em) {
+
+.title{
+	width:70%;
+	margin-left: 10rem;
+}
+
+.chart{
+	float: left;
+}
+
+.bottom{
+	width: 40%;
+	margin-left: 20rem;
+}
+	}
